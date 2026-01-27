@@ -1,0 +1,33 @@
+1. GCC - C programming compiler collection 
+check gcc version: gcc --version
+  Useful compile flags for learning:                                                                                                                                                     
+  gcc -Wall -Wextra -g hello.c -o hello                                                                                                                                                  
+  - -Wall -Wextra = show all warnings (helps catch mistakes)                                                                                                                             
+  - -g = include debugging info 
+
+2. Install gcc 
+sudo apt update 
+sudo apt install build-essential 
+
+3. Run and compile c program
+create the c file 
+touch complete-c.c
+compile the c 
+  Linux:                                                                                                                                                            
+  gcc hello.c -o hello                                                                                                                                                                   
+  ./hello                                                                                                                                                                                
+                                                                                                                                                                                         
+  Windows:                                                                                                                                                                               
+  gcc hello.c -o hello.exe                                                                                                                                                               
+  hello.exe   
+
+4.
+C is 
+-a general-purpose programming language that gives you direct control over computer memory and hardware.
+- It's compiled (converted to machine code before running), requires manual 
+  memory management, and is used for operating systems, embedded systems,
+   and real-time applications where performance and precise control matter.
+
+C is a compiled language - which means that in order to run it, the compiler (for example, GCC or Visual Studio) 
+must take the code that we wrote, process it, 
+and then create an executable file. This file can then be executed, and will do what we intended for the program to do.

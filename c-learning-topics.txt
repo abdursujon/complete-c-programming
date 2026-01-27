@@ -1,0 +1,21 @@
+C Learning Topics for Real-Time Software Engineer Role
+
+2. Operators
+3. Control Flow (if, switch, loops)
+4. Functions
+5. Pointers
+6. Arrays
+7. Strings (char arrays)
+8. Structures
+9. Memory Management (malloc, free, stack vs heap)
+10. Preprocessor (#define, #include, macros, conditional compilation)
+11. File I/O
+12. Function Pointers
+13. Linked Lists
+14. Dynamic Memory Allocation
+15. Compilation and Linking
+16. Debugging (segmentation faults, memory leaks)
+17. Header Files
+18. Real-Time Systems Concepts
+19. Concurrency Basics (threads, mutexes, race conditions)
+20. Plugin/Component Architecture Patterns
