@@ -1,4 +1,8 @@
-run c from root: cc src/interview.c && ./a.out
+run a single c from root: cc src/interview.c && ./a.out
+run all c and compile at the same time:  cc src/*.c && ./a.out                                                                                                                                                       
+                                                                                                                                                                                   
+
+
 
 1. GCC - C programming compiler collection 
 check gcc version: gcc --version

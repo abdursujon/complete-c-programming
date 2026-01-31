@@ -5,7 +5,7 @@
 #define DEBUG 
 #define PI 3.14
 
-int main() {
+int mainSourcePreProcessing() {
     #ifdef DEBUG
         printf("Debug mode ON\n");
     #else 

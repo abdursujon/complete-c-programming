@@ -23,7 +23,7 @@ const char* whoWins(int chooseTeam){
     }
 }
 
-int main(){// expect 10   
+int mainControlFlow(){// expect 10   
     printf("%d\n", max(2929, 2)); 
     printf("%s\n", whoWins(1));
 }

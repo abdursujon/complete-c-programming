@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(){
+int mainOperators(){
     // 1. Arithmetic operators 
     int a = 10, b = 3;
     int sum = a + b;

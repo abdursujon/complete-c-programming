@@ -5,7 +5,7 @@
 // - fopen(), fclose() - file operations 
 // -fprintf(), fscanf - file read and file write 
 #include <stdio.h> 
-int main(){
+int mainPrintC(){
     printf("Hello I am Sujon, learning C programming is fun don't you think?");
     return 0; // echo $? to return 0 in terminal
 }

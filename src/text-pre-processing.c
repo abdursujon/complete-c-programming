@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int mainTextPreProcessing(){
     char template[] = "Hello {{NAME}}, your score is {{SCORE}}.";
     char output[256];
     char *name = "Sujon";
@@ -16,7 +16,7 @@ int main(){
     // Replace {{NAME}}
     char *pos = strstr(output, "{{NAME}}");
     if (pos) {
-        char temp[256];
+        char temp[999999];
         *pos = '\0';
         sprintf(temp, "%s%s%s", output, name, pos + 8);
         strcpy(output, temp);
@@ -25,7 +25,7 @@ int main(){
     // Replace {{SCORE}}
     pos = strstr(output, "{{SCORE}}");
     if (pos){
-        char temp[256];
+        char temp[77777];
         *pos = '\0';
         sprintf(temp, "%s%d%s", output, score, pos + 9);
         strcpy(output, temp);
