@@ -1,11 +1,12 @@
 C Learning Topics for Real-Time Software Engineer Role
-
-2. Operators
+1. Data Types x 
+2. Operators x
 3. Control Flow (if, switch, loops)
 4. Functions
 5. Pointers
 6. Arrays
 7. Strings (char arrays)
+
 8. Structures
 9. Memory Management (malloc, free, stack vs heap)
 10. Preprocessor (#define, #include, macros, conditional compilation)

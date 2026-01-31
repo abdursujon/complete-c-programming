@@ -1,9 +1,12 @@
+run c from root: cc src/interview.c && ./a.out
+
 1. GCC - C programming compiler collection 
 check gcc version: gcc --version
   Useful compile flags for learning:                                                                                                                                                     
   gcc -Wall -Wextra -g hello.c -o hello                                                                                                                                                  
   - -Wall -Wextra = show all warnings (helps catch mistakes)                                                                                                                             
   - -g = include debugging info 
+c99 -Wall -o a.out  print.c -lm
 
 2. Install gcc 
 sudo apt update 
@@ -31,3 +34,6 @@ C is
 C is a compiled language - which means that in order to run it, the compiler (for example, GCC or Visual Studio) 
 must take the code that we wrote, process it, 
 and then create an executable file. This file can then be executed, and will do what we intended for the program to do.
+
+5. Run test files 
+cc test/test_control_flow.c src/control-flow.c Unity/src/unity.c -I src/ -I Unity/src/ && ./a.out  

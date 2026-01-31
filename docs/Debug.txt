@@ -1,0 +1,21 @@
+  GDB debugging for C
+  # 1. Compile with -g flag                                                                                                                                                        
+  gcc -g program.c -o program                                                                                                                                                      
+                                                                                                                                                                                   
+  # 2. Start GDB                                                                                                                                                                   
+  gdb ./program                                                                                                                                                                    
+                                                                                                                                                                                   
+  # 3. Essential commands                                                                                                                                                          
+  (gdb) break main           # Stop at main                                                                                                                                        
+  (gdb) run                  # Start program                                                                                                                                       
+  (gdb) next                 # Next line (skip functions)                                                                                                                          
+  (gdb) step                 # Next line (enter functions)                                                                                                                         
+  (gdb) print variable       # See variable value                                                                                                                                  
+  (gdb) continue             # Continue running                                                                                                                                    
+  (gdb) backtrace            # Where am I? (call stack)                                                                                                                            
+  (gdb) quit                 # Exit                                                                                                                                                
+                                                                                                                                                                                   
+  # If program crashes:                                                                                                                                                            
+  (gdb) run                  # Crash happens                                                                                                                                       
+  (gdb) backtrace            # Shows crash line                                                                                                                                    
+  (gdb) print var            # Check suspicious variables 

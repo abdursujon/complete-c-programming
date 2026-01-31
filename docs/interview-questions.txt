@@ -1,0 +1,76 @@
+========================================
+PREPROCESSING & TEXT MANIPULATION
+========================================
+
+1. MACRO EXPANSION
+Write a program that reads a C file and expands all #define macros.
+Input: "#define MAX 10\nint arr[MAX];"
+Output: "int arr[10];"
+
+2. COMMENT STRIPPER
+Write a program that removes all comments from C source code.
+Input: "int x = 5; // this is a comment\n/* block comment */ int y = 10;"
+Output: "int x = 5;\nint y = 10;"
+
+3. TEMPLATE REPLACEMENT
+Read a template file with {{VARIABLE}} placeholders and replace them with actual values.
+Input file: "Hello {{NAME}}, you scored {{SCORE}}"
+Output: "Hello John, you scored 95"
+
+4. INCLUDE FILE PROCESSOR
+Implement a simple #include processor that inserts file contents.
+Input: "#include \"header.h\"\nint main() {}"
+Output: <contents of header.h> + "int main() {}"
+
+5. CONDITIONAL COMPILATION
+Process #ifdef/#endif directives based on defined flags.
+Input: "#ifdef DEBUG\nprintf(\"debug\");\n#endif"
+If DEBUG defined: output "printf(\"debug\");"
+If not: output ""
+
+========================================
+STRING & FILE OPERATIONS
+========================================
+
+6. TOKEN COUNTER
+Count the number of tokens (words/symbols) in a C source file.
+Input: "int x = 10;"
+Output: 5 tokens (int, x, =, 10, ;)
+
+7. FUNCTION SIGNATURE EXTRACTOR
+Parse a C file and extract all function signatures.
+Input: "int add(int a, int b) { return a+b; }\nvoid print() {}"
+Output: "int add(int a, int b)\nvoid print()"
+
+8. CONFIG FILE PARSER
+Parse key=value pairs from a config file into a data structure.
+Input: "port=8080\nhost=localhost\ntimeout=30"
+Output: Store in struct/array for access
+
+========================================
+PRACTICAL PROBLEMS
+========================================
+
+9. HEADER GUARD GENERATOR
+Generate header guards for a .h file.
+Input: "myfile.h"
+Output:
+#ifndef MYFILE_H
+#define MYFILE_H
+// original content
+#endif
+
+10. BUILD DEPENDENCY ANALYZER
+Read multiple C files and list which files include which headers.
+Input: Multiple .c files with #include statements
+Output: dependency.c includes: stdio.h, string.h, myheader.h
+
+========================================
+PREPARATION 
+========================================
+
+- All questions test string manipulation + file I/O
+- Use: fopen, fgets, fprintf, strstr, strtok, strcpy, sprintf
+- Focus on correctness, not optimization
+- Handle edge cases (NULL, empty files)
+- Practice at least 3-4 questions before interview

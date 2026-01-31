@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main(){
     // 1. Arithmetic operators 
     int a = 10, b = 3;
@@ -52,7 +53,7 @@ int main(){
     // 8. Comma operator 
     int j, k, l;
     j = (k =4, l = 44, k + l);
-    for (int i = 0, j = 10, i < j; i++; j--){
+    for (int i = 0, j = 10; i < j; i++, j--){
         printf("%d",j);
     }
     for(int i=2, j=110; i<j; i++, j--){
@@ -66,14 +67,12 @@ int main(){
     printf("%d", size2);
 
     // 10. Pointer Operators 
-    int k = 10;
     int *ptr = &k; // holds address of x 
     int value = *ptr; // dereference 
     *ptr = 20; // k is now 20
 
     // 11. Cast operator 
-    int a = 10, b = 3;
-    float result = (float) a / b;
-    int *ptr = (int*)malloc(sizeof(int)); // malloc is used to allocate a block of memory on the heap , heap is memory region in a RAM
-    char c = (char)65;
+    float result2 = (float) a / b;
+    int *ptr2 = (int*)malloc(sizeof(int)); // malloc is used to allocate a block of memory on the heap , heap is memory region in a RAM
+    char c2 = (char)65;
 }
