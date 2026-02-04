@@ -1,0 +1,3 @@
+How to run unity test 
+compile: gcc -I Unity/src src/03_functions/test/test_functions.c src/03_functions/arguments.c Unity/src/unity.c -o ./build/test_functions
+run the build: ./build/test_functions

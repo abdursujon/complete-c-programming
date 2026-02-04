@@ -1,13 +1,13 @@
 #include <stdio.h>
 #define DEBUG 
 
-int checkValidInt(unsigned int a, unsigned int b){
+int checkValidInt(int a, int b){
     #ifdef DEBUG
         printf("[DEBUG] checkValidInt called: a=%d, b=%d\n", a, b);
     #endif
-    if(a < 0 || b < 0 || b == 0){
+    if(b == 0){
         #ifdef DEBUG 
-            printf("[DEBUG] ERROR: unsigned int cannot be less then zero || devisor cannot be zero!\n");
+            printf("[DEBUG] ERROR: devisor cannot be zero!\n");
         #endif
         return -1;    
     }

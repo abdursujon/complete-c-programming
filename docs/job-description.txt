@@ -1,93 +1,318 @@
-Tasks and Qualifications: 
-The Real-Time Software Engineer is responsible for developing and implementing 
-software applications in a real-time environment using the C language. This role 
+================================================================================
+                        REAL-TIME SOFTWARE ENGINEER
+================================================================================
+
+ROLE OVERVIEW
+-------------
+The Real-Time Software Engineer is responsible for developing and implementing
+software applications in a real-time environment using the C language. This role
 requires a deep understanding of text and source code pre-processing, as well as
-experience building components and plugins. The candidate should have expertise 
-in software engineering principles and real-time systems, with the ability to work 
-collaboratively and independently to meet project objectives. 
+experience building components and plugins. The candidate should have expertise
+in software engineering principles and real-time systems, with the ability to work
+collaboratively and independently to meet project objectives.
 
-Main Job Objectives  
-Assist in the design and development of real-time software applications. Write code 
-for simple software components and plugins. Participate in code reviews and provide 
-feedback to other team members. Debug and test software applications to ensure that 
-they meet requirements and are free from defects. Design and develop software applications 
-for real-time environments, ensuring that they are scalable, maintainable, and reliable. 
-Analyse user requirements and design software solutions to meet these requirements. 
-Write high-quality code that is easy to maintain and extend. Collaborate with cross-functional 
-eams to develop and integrate software components into larger systems. Work with software engineers, 
-system architects, and project managers to ensure that software is delivered on time, within budget, 
-and to specifications. Participate in peer review such as code design, test reviews and provide constructive 
-feedback to other team members. Maintain and improve existing software applications, including 
-troubleshooting and bug fixes. Stay up to date with new technologies, software development tools,
-and best practices to ensure that software applications remain cutting-edge and competitive.  
-
-1. Text and source code pre procesing + how to read and write file x
-2. Components and plugins 
-3. Software enineering principle 
-  1. DRY - Don't Repeat Yourself (reuse code)                                          
-  2. KISS - Keep It Simple                                                             
-  3. Modularity - break code into small, focused functions                             
-  4. Readability - clear naming, comments where needed                                 
-  5. Error handling - check return values, handle edge cases                           
-  6. Testing - verify code works before shipping                                       
-  7. Version control - use git, commit often                                           
-  8. Code review - have others check your work  
-
-SDLC 
-● Software Development Life Cycle - phases of building software:                       
-                                                                                       
-  1. Requirements - what does the client/user need?                                    
-  2. Design - how will we build it? (architecture, data structures)                    
-  3. Implementation - write the code                                                   
-  4. Testing - verify it works                                                         
-  5. Deployment - release to users                                                     
-  6. Maintenance - bug fixes, updates                                                  
-                                                                                       
-  Common models:                                                                       
-  - Waterfall - linear, one phase after another                                        
-  - Agile - iterative, short sprints, frequent delivery                                
-  - V-Model - testing at each phase   
-
-4. Real time system 
-5. Components 
-6. Plugins 
-7. Real time software 
-8. Code review and feedback
-9. Debug 
-10.Test 
-11. Edge cases  ( finish until edge cases tomorrow, say out loud to practice)
-12. scalable, maintainable, reliable
-13. Analyse user requirements
-14. Desing software 
-15. Collaboration 
-16. Integrate software componenets into larger system 
-17. delivered on time, in budget, and specifications
-18. Peer review, constructive feedback 
-19. Maintain and improve existing software
-20. troubleshooting and bug fixes 
-21. How do you stay up to date to make sure software cutting edge and competitive
+MAIN JOB OBJECTIVES
+-------------------
+- Assist in the design and development of real-time software applications
+- Write code for simple software components and plugins
+- Participate in code reviews and provide feedback to other team members
+- Debug and test software applications to ensure they meet requirements
+- Design and develop scalable, maintainable, and reliable software
+- Analyse user requirements and design software solutions
+- Write high-quality code that is easy to maintain and extend
+- Collaborate with cross-functional teams to integrate software components
+- Work with software engineers, system architects, and project managers
+- Maintain and improve existing software applications
+- Stay up to date with new technologies and best practices
 
 
-** Tell me about yourself 
-  "I'm a first-year Computer Science student at Salford, currently achieving first     
-  class at 80%. I've been building full-stack applications—my main project is a Spring 
-  Boot API where I implemented modular components, automated testing with JUnit, and   
-  CI/CD pipelines on Google Cloud.                                                     
-                                                                                       
-  What draws me to this role is the focus on software engineering principles—I've      
-  applied these in practice as a Scrum master, leading a team of seven using Agile     
-  methodology and proper SDLC processes. I've also implemented code review workflows   
-  and Git branching strategies for team collaboration.                                 
-                                                                                       
-  I'm particularly interested in real-time systems and working closer to the hardware  
-  level with C. I understand the importance of writing reliable, maintainable code     
-  where performance and timing matter—especially in systems where you can't afford     
-  unpredictable behavior like dynamic memory allocation.                               
-                                                                                       
-  I'm looking to grow my skills in low-level programming and contribute to building    
-  scalable software components that integrate into larger systems."   
+================================================================================
+                           KEY TOPICS CHECKLIST
+================================================================================
 
-    "I'll be honest—my C experience is limited compared to my work in Java and Python.   
-  But I've been actively learning it, and I find the lower-level concepts like memory  
-  management and pointers genuinely interesting. I pick things up quickly, and I'm     
-  confident I can get up to speed with the right guidance." 
+1. Text and source code pre-processing + file I/O                          [x]
+2. Components                                                              [x]
+3. Plugins                                                                 [x]
+4. Real-time software                                                      [x]
+5. Debug (GDB)                                                             [x]
+6. Test (Unity framework)                                                  [x]
+7. Edge cases                                                              [x]
+8. Code review and feedback                                                [x]
+9. Scalable                                                                [x]
+10. Maintainable                                                           [x]
+11. Reliable                                                               [x]
+12. Analyse user requirements                                              [x]
+13. Design software                                                        [ ]
+14. Collaboration                                                          [x]
+15. Integrate software components into larger system                       [ ]
+16. Delivered on time, in budget, and specifications                       [ ]
+17. Peer review, constructive feedback                                     [ ]
+18. Troubleshooting and bug fixes                                          [ ]
+19. How to stay up to date with cutting edge technology                    [ ]
+
+
+================================================================================
+                        SOFTWARE ENGINEERING PRINCIPLES
+================================================================================
+
+1. DRY             - Don't Repeat Yourself (reuse code)
+2. KISS            - Keep It Simple Stupid
+3. Modularity      - Break code into small, focused functions
+4. Readability     - Clear naming, comments where needed
+5. Error handling  - Check return values, handle edge cases
+6. Testing         - Verify code works before shipping
+7. Version control - Use git, commit often
+8. Code review     - Have others check your work
+9. Documentation   - Good docs for complex logic
+10. Abstraction    - Hide implementation details
+11. Scalable       - Design for growth
+
+
+================================================================================
+                                    SDLC
+================================================================================
+
+Software Development Life Cycle - phases of building software:
+
+1. Requirements  - What does the client/user need?
+2. Design        - How will we build it? (architecture, data structures)
+3. Implementation - Write the code
+4. Testing       - Verify it works
+5. Deployment    - Release to users
+6. Maintenance   - Bug fixes, updates
+
+Common models:
+- Waterfall - Linear, one phase after another
+- Agile     - Iterative, short sprints, frequent delivery
+- V-Model   - Testing at each phase
+
+
+================================================================================
+                            REAL-TIME SYSTEMS
+================================================================================
+
+Definition:
+A real-time system is one where response time must be guaranteed within
+constrained time and meet deadlines. Otherwise consequences can be disastrous.
+Examples: flight control systems, industrial automation, medical equipment.
+
+Advantages:
+- Immediate and accurate responses to external events
+- Automate complex tasks improving productivity and efficiency
+- Reduce human error with precision and consistency
+- Reduce costs by minimizing human intervention
+- Customizable to meet specific requirements
+
+Disadvantages:
+- Complex to design, implement, and test
+- Expensive (specialized hardware/software)
+- Less flexible due to strict timing requirements
+- Vulnerable to failures with serious consequences
+- Require continuous monitoring and maintenance
+
+
+================================================================================
+                          CODE REVIEW AND FEEDBACK
+================================================================================
+
+Process:
+1. Create branch from main
+2. Make changes, commit
+3. Push branch to remote
+4. Open Pull Request (PR)
+5. Reviewer reviews code, leaves comments
+6. Author addresses feedback, pushes again
+7. Once approved, squash and merge
+8. Delete branch
+
+
+================================================================================
+                               SCALABILITY
+================================================================================
+
+Key practices:
+- Use database from start (not in-memory)
+- Connection pooling (HikariCP)
+- Stateless API design
+- Async processing for heavy tasks
+- Pagination for large data
+
+Testing:
+  ab -n 100 -c 100 <url>    # Apache Benchmark for concurrent requests
+
+
+================================================================================
+                             MAINTAINABILITY
+================================================================================
+
+Choose architecture wisely:
+- Separation of layers (controller, service, repository)
+- Test each layer properly
+- Clear naming conventions
+- Small functions (do one thing)
+- Comment where logic isn't obvious
+- DRY (Don't Repeat Yourself)
+- Version control
+
+
+================================================================================
+                              RELIABILITY
+================================================================================
+
+- Error handling     - Catch exceptions, handle edge cases
+- Input validation   - Never trust user input
+- Tests              - Unit, integration, end-to-end
+- Logging/monitoring - Track errors in production
+- Retries            - For network/external service failures
+- Circuit breakers   - Stop cascading failures
+- Backups            - Database, config
+- Graceful degradation - Partial failure, not full crash
+- Health checks      - Know when service is down
+- Redundancy         - Multiple instances, failover
+
+
+================================================================================
+                        ARCHITECTURE PATTERNS
+================================================================================
+
+--------------------------------------------------------------------------------
+MVC (Model-View-Controller)
+--------------------------------------------------------------------------------
+project/
+├── src/
+│   ├── controllers/         # Handles requests
+│   │   ├── UserController.java
+│   │   ├── OrderController.java
+│   │   └── ProductController.java
+│   │
+│   ├── models/              # Data & business logic
+│   │   ├── User.java
+│   │   ├── Order.java
+│   │   └── Product.java
+│   │
+│   ├── views/               # UI templates
+│   │   ├── user/
+│   │   │   ├── list.html
+│   │   │   └── detail.html
+│   │   └── order/
+│   │       └── checkout.html
+│   │
+│   ├── repositories/        # Database access
+│   │   └── UserRepository.java
+│   │
+│   └── Application.java     # Entry point
+│
+├── resources/
+│   ├── static/              # CSS, JS, images
+│   └── application.properties
+│
+└── tests/
+
+
+--------------------------------------------------------------------------------
+MICROSERVICES
+--------------------------------------------------------------------------------
+project/
+├── services/
+│   ├── user-service/
+│   │   ├── src/
+│   │   ├── Dockerfile
+│   │   └── pom.xml
+│   │
+│   ├── order-service/
+│   │   ├── src/
+│   │   ├── Dockerfile
+│   │   └── pom.xml
+│   │
+│   ├── payment-service/
+│   │   ├── src/
+│   │   ├── Dockerfile
+│   │   └── pom.xml
+│   │
+│   └── notification-service/
+│       ├── src/
+│       ├── Dockerfile
+│       └── pom.xml
+│
+├── api-gateway/             # Single entry point
+├── config-server/           # Centralized config
+├── service-discovery/       # Eureka/Consul
+├── docker-compose.yml
+└── kubernetes/              # K8s deployment files
+    ├── deployments/
+    └── services/
+
+Each service:
+- Own database
+- Own repo (or monorepo)
+- Communicates via REST/gRPC or message queue
+
+Sparse checkout (for monorepo):
+  git clone --filter=blob:none --sparse https://github.com/org/monorepo.git
+  cd monorepo
+  git sparse-checkout set services/user-service libs/common
+
+
+--------------------------------------------------------------------------------
+LAYERED / N-TIER ARCHITECTURE WITH HAL
+--------------------------------------------------------------------------------
+project/
+├── src/
+│   ├── hal/                 # Layer 1: Hardware Abstraction
+│   │   ├── hal.h
+│   │   ├── gpio.c
+│   │   ├── i2c.c
+│   │   └── uart.c
+│   │
+│   ├── drivers/             # Layer 2: Device Drivers
+│   │   ├── temperature_sensor.c
+│   │   ├── motor_controller.c
+│   │   └── display.c
+│   │
+│   ├── services/            # Layer 3: Business Logic
+│   │   ├── alarm_service.c
+│   │   ├── monitoring_service.c
+│   │   └── data_logger.c
+│   │
+│   └── app/                 # Layer 4: Application
+│       └── main.c
+│
+├── include/                 # Headers
+├── config/                  # Configuration
+├── tests/                   # Unit tests
+└── build/                   # Compiled output
+
+Rule: Each layer only depends on the layer directly below it.
+
+
+================================================================================
+                          INTERVIEW PREPARATION
+================================================================================
+
+TELL ME ABOUT YOURSELF:
+
+"I'm a first-year Computer Science student at Salford, currently achieving first
+class at 80%. I've been building full-stack applications—my main project is a Spring
+Boot API where I implemented modular components, automated testing with JUnit, and
+CI/CD pipelines on Google Cloud.
+
+What draws me to this role is the focus on software engineering principles—I've
+applied these in practice as a Scrum master, leading a team of seven using Agile
+methodology and proper SDLC processes. I've also implemented code review workflows
+and Git branching strategies for team collaboration.
+
+I'm particularly interested in real-time systems and working closer to the hardware
+level with C. I understand the importance of writing reliable, maintainable code
+where performance and timing matter—especially in systems where you can't afford
+unpredictable behavior like dynamic memory allocation.
+
+I'm looking to grow my skills in low-level programming and contribute to building
+scalable software components that integrate into larger systems."
+
+
+ADDRESSING C EXPERIENCE:
+
+"I'll be honest—my C experience is limited compared to my work in Java and Python.
+But I've been actively learning it, and I find the lower-level concepts like memory
+management and pointers genuinely interesting. I pick things up quickly, and I'm
+confident I can get up to speed with the right guidance."

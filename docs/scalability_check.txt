@@ -1,0 +1,2 @@
+1. Install apache benchmark : sudo apt install apache2-utils
+2. Send concurrent request: ab -n 100 -c 10 "https://www.salford.ac.uk/"
