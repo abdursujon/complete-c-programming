@@ -1,0 +1,12 @@
+Text formatter plugin specifications
+1. uppoercase 
+2. lowercase
+3. capitalize after .
+4. trim
+5. reverse.so
+
+How to run 
+cd src/plugins/text_formater                                                              
+gcc -shared -fPIC uppercase.c -o uppercase.so                                             
+gcc main.c -o formatter -ldl                                                              
+./formatter ./uppercase.so input.txt  

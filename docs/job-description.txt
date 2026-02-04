@@ -21,7 +21,7 @@ feedback to other team members. Maintain and improve existing software applicati
 troubleshooting and bug fixes. Stay up to date with new technologies, software development tools,
 and best practices to ensure that software applications remain cutting-edge and competitive.  
 
-1. Text and source code pre procesing + how to read and write file 
+1. Text and source code pre procesing + how to read and write file x
 2. Components and plugins 
 3. Software enineering principle 
   1. DRY - Don't Repeat Yourself (reuse code)                                          
